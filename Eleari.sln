@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleari", "Eleari\Eleari.csproj", "{508A5C14-BA24-4369-B8DD-97F63A238D2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{18DF6566-838C-446F-AE4B-CA75427D79D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8529EE84-EFF6-42F8-944B-50350BA00E16}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{9E74F4F6-8827-4BE3-986A-A2FF297C3EC3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\Eleari.json = PublishScripts\Templates\Eleari.json
+		PublishScripts\Templates\Eleari.param.dev.json = PublishScripts\Templates\Eleari.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{508A5C14-BA24-4369-B8DD-97F63A238D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508A5C14-BA24-4369-B8DD-97F63A238D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508A5C14-BA24-4369-B8DD-97F63A238D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508A5C14-BA24-4369-B8DD-97F63A238D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8529EE84-EFF6-42F8-944B-50350BA00E16} = {18DF6566-838C-446F-AE4B-CA75427D79D1}
+		{9E74F4F6-8827-4BE3-986A-A2FF297C3EC3} = {18DF6566-838C-446F-AE4B-CA75427D79D1}
+	EndGlobalSection
+EndGlobal
